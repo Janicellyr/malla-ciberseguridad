@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  padding: 20px;
+}
+
+#malla {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.semestre {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  min-width: 220px;
+}
+
+.materia {
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.materia.aprobada {
+  background-color: #d1fae5;
+  border-color: #10b981;
+}
+
+.materia.desbloqueada {
+  background-color: #ffffff;
+}
+
+.materia.bloqueada {
+  background-color: #f3f4f6;
+  border-style: dashed;
+  opacity: 0.6;
+}
